@@ -15,5 +15,6 @@ private:
 
 public:
 	Weather(string city, double lon, double lat, double temperature, string weather, double windSpeed, int clouds);
+	friend ostream& operator<<(ostream& os, Weather& f);
 };
 

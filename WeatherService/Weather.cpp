@@ -10,3 +10,9 @@ Weather::Weather(string city, double lon, double lat, double temperature, string
 	this->windSpeed = windSpeed;
 	this->clouds = clouds;
 }
+
+ostream& operator<<(ostream& os, Weather& f)
+{
+	os << f.city << "/" << f.lon << "/" << f.lat << "/" << f.temperature << "/" << f.weather << "/" << f.windSpeed << "/" << f.clouds;
+	return os;
+}
