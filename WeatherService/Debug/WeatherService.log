@@ -1,7 +1,2 @@
-﻿  JsonService.cpp
-  Service.cpp
-  Weather.cpp
-  WeatherService.cpp
-  Создание кода...
-  LINK : не найден или не выполнена сборка C:\Users\class\source\repos\WeatherService\Debug\WeatherService.exe при последней инкрементной компоновке; выполняется полная компоновка
+﻿  WeatherService.cpp
   WeatherService.vcxproj -> C:\Users\class\source\repos\WeatherService\Debug\WeatherService.exe
