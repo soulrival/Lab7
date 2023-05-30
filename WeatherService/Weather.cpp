@@ -13,6 +13,6 @@ Weather::Weather(string city, double lon, double lat, double temperature, string
 
 ostream& operator<<(ostream& os, Weather& f)
 {
-	os << f.city << "/" << f.lon << "/" << f.lat << "/" << f.temperature << "/" << f.weather << "/" << f.windSpeed << "/" << f.clouds;
+	os << "City name: " << f.city << endl << "Coord(lon): " << f.lon << endl << "Coord(lat): " << f.lat << endl << "Main temp: " << f.temperature << endl << "Weather name: " << f.weather << endl << "Wind speed: " << f.windSpeed << endl << "All clouds: " << f.clouds;
 	return os;
 }
